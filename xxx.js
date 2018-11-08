@@ -3,7 +3,8 @@
 
   for ( let i = 0; i < paragraphs.length; i++ ) {
 
-    paragraphs[i].innerHTML = "Dear, dearest, dead, could you hold me in your hands?";
+    paragraphs[i].innerHTML = "JOYCE(says to the purple butterfly) 'Dear, dearest, dead, could you hold me in your hands?' The purple butterfly flaps it's wings. I'll take that as a 'yes'.
+    Joyce closes her eyes. Fade To Black" ;
 
   }
 
