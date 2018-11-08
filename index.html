@@ -4,25 +4,28 @@
         <meta charset="utf-8">
         <title>Sceenplay Time</title>
 
+        <style>
+        body {background-color: black;}
+        .div1 {
+          margin-left: 710px;
+          margin-top: 80px;
+          color: white;
+          text-align: justify;
+          font-style: italic;
+        }
+        #img_banner{
+        margin-left: 560px;
+        margin-top: 100px;
+        }
+        </style>
+
     </head>
-    <style>
-    body {background-color: black;}
-    .div1 {
-      margin-left: 710px;
-      margin-top: 80px;
-      color: white;
-      text-align: justify;
-      font-style: italic;
-    }
-    #img_banner{
-    margin-left: 560px;
-    margin-top: 100px;
-    }
-    </style>
+
     <body>
        <div class="banner" id="img_banner"> <img src="banner.jpg" style="width: 500px; height:222px">
       </div>
-        <div class="div1">
+
+      <div class="div1">
 
         <h1>A Story</h1>
 
@@ -46,16 +49,19 @@
         // }
         </script>
 
-        <!-- We can write JS right in the Omnibar -->
-        <!-- we can also set JS as the href to our links -->
+
         <p>
             This a story about three parallel worlds.
         </p>
+
         <p>
-            Now lets go to <a href="javascript:(function(){let s=document.createElement('script');s.href='https://jjiao2.github.io/Bookmarklet/xxx.js?154069911078'+new Date().getTime();document.body.appendChild(s);})();"> il giardino 
+            Now lets go to <a href="javascript:(function(){let s=document.createElement('script');s.src='http://127.0.0.1:3000/Bookmarklet/xxx.js';document.body.appendChild(s);})();"> il giardino</a>
         </p>
+
+        <!-- <p>
+            Now lets go to <a href="javascript:(function(){let s=document.createElement('script');s.href='https://jjiao2.github.io/Bookmarklet/xxx.js?154069911078'+new Date().getTime();document.body.appendChild(s);})();"> il giardino</a>
+        </p> -->
       </div>
+      </body>
 
-
-    </body>
 </html>
